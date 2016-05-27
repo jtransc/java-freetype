@@ -1,3 +1,6 @@
 [submodule "freetype2"]
 	path = freetype2
 	url = https://github.com/jtransc/freetype2.git
+[submodule "bullet3"]
+	path = bullet3
+	url = https://github.com/bulletphysics/bullet3.git
