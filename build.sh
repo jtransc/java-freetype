@@ -6,7 +6,7 @@ rm lljvm.cid
 docker run \
 	--cidfile "lljvm.cid" \
 	-i -v `pwd`/freetype2:/project \
-	-t mhaye/lljvm \
+	-t soywiz/lljvm1 \
 	/usr/local/lib/lljvm/lljvm-cc \
 		-I/project/include \
 		/project/src/base/ftapi.c \
