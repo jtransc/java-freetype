@@ -1,5 +1,6 @@
 # https://github.com/jtransc/gdx-backend-jtransc/issues/4
 #docker run -t -i mhaye/lljvm /bin/bash
+#docker run -i -v `pwd`/freetype2:/project -t soywiz/lljvm1 /bin/bash
 #docker run -i -v `pwd`/freetype2:/project -t mhaye/lljvm /bin/bash -c lljvm-cc -Iinclude src/base/ftapi.c
 #export PATH=/usr/local/lib/lljvm:$PATH
 rm lljvm.cid
